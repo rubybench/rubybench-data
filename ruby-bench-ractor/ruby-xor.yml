@@ -1,2 +1,3 @@
+20251107: {"baseline":{"0":[445700.0,71.8],"1":null,"2":null,"4":null,"6":null,"8":null},"yjit":{"0":[76933.3,71.9],"1":null,"2":null,"4":null,"6":null,"8":null},"zjit":{"0":[419733.3,76.7],"1":null,"2":null,"4":null,"6":null,"8":null}}
 20251108: {"baseline":{"0":[439933.3,72.0],"1":null,"2":null,"4":null,"6":null,"8":null},"yjit":{"0":[75566.7,71.9],"1":null,"2":null,"4":null,"6":null,"8":null},"zjit":{"0":[426666.7,78.1],"1":null,"2":null,"4":null,"6":null,"8":null}}
 20251109: {"baseline":{"0":[447100.0,72.3],"1":null,"2":null,"4":null,"6":null,"8":null},"yjit":{"0":[75633.3,71.9],"1":null,"2":null,"4":null,"6":null,"8":null},"zjit":{"0":[419000.0,76.5],"1":null,"2":null,"4":null,"6":null,"8":null}}
