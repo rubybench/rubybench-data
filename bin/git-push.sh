@@ -8,6 +8,6 @@ if ! git diff-index --exit-code --quiet HEAD --; then
     git config --global user.name "GitHub"
   fi
   git commit -m "$message"
-  git pull --rebase origin master
-  git push origin master
+  git pull --rebase origin main
+  git push origin main
 fi
