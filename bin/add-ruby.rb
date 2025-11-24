@@ -29,6 +29,7 @@ if target_dates.empty?
   return
 end
 
+any_success = false
 target_dates.each do |target_date|
   # Convert target_date to ruby_revision
   cmd = ['docker', 'run', '--rm', "ghcr.io/ruby/ruby:master-#{target_date}", 'ruby', '-e', 'print RUBY_REVISION']
@@ -52,6 +53,12 @@ target_dates.each do |target_date|
     next
   end
   rubies[target_date] = ruby_revision
+  any_success = true
+end
+
+if !any_success
+  $stderr.puts "All target_dates executions failed"
+  exit 1
 end
 
 # Update rubies.yml
