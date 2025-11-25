@@ -37,6 +37,8 @@ target_dates.each do |target_date|
   ruby_revision = IO.popen(cmd, &:read)
   unless $?.success?
     puts "Failed to run `#{cmd.join(' ')}`: #{ruby_revision}"
+    puts "Marking #{target_date} as broken"
+    rubies[target_date] = nil
     next
   end
 
