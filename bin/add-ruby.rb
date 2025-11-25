@@ -62,10 +62,11 @@ target_dates.each do |target_date|
   any_success = true
 end
 
+# Update rubies.yml
+File.write('rubies.yml', YAML.dump(rubies.sort_by(&:first).to_h))
+
 if !any_success
   $stderr.puts "All target_dates executions failed"
   exit 1
 end
 
-# Update rubies.yml
-File.write('rubies.yml', YAML.dump(rubies.sort_by(&:first).to_h))
