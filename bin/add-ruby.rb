@@ -46,10 +46,14 @@ target_dates.each do |target_date|
   other_revision = IO.popen(cmd, &:read)
   unless $?.success?
     puts "Failed to run `#{cmd.join(' ')}`: #{ruby_revision}"
+    puts "Marking #{target_date} as broken"
+    rubies[target_date] = nil
     next
   end
   if ruby_revision != other_revision
     puts "RUBY_REVISION mismatch on master-#{ruby_revision}: #{ruby_revision} != #{other_revision}"
+    puts "Marking #{target_date} as broken"
+    rubies[target_date] = nil
     next
   end
   rubies[target_date] = ruby_revision
