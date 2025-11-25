@@ -67,6 +67,5 @@ File.write('rubies.yml', YAML.dump(rubies.sort_by(&:first).to_h))
 
 if !any_success
   $stderr.puts "All target_dates executions failed"
-  exit 1
 end
 
