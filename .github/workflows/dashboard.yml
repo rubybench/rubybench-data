@@ -1,0 +1,25 @@
+name: dashboard
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'ruby-bench/**'
+      - 'ruby-bench-rss/**'
+      - 'bin/dashboard.rb'
+  workflow_dispatch:
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Clone rubybench and checkout ruby-bench submodule
+        run: |
+          git clone --depth 1 https://github.com/rubybench/rubybench.git /tmp/rubybench
+          cd /tmp/rubybench
+          git submodule update --init --depth 1 benchmark/ruby-bench
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4'
+      - run: bin/dashboard.rb /tmp/rubybench/benchmark/ruby-bench/benchmarks.yml
+      - run: "bin/git-push.sh 'GitHub Actions: Update dashboard'"
