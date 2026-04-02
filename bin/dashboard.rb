@@ -67,6 +67,7 @@ dashboard = {
 benchmarks.sort_by(&:first).each do |benchmark, metadata|
   results = benchmark_results.fetch(benchmark)
   category = metadata.fetch(:category, 'other').to_sym
+  next unless dashboard.key?(category)
 
   no_jit, yjit, zjit = results[ruby]
   if no_jit
