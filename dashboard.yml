@@ -421,8 +421,6 @@ micro:
   - 1.0
   - 1.0
   - 1.0
-  - 1.0
-  - 1.0
   yjit:
   - 7.25
   - 9.52
@@ -439,8 +437,6 @@ micro:
   - 32.3
   - 6.49
   - 61.45
-  - 4.26
-  - 34.92
   - 15.78
   - 2.26
   - 2.57
@@ -464,8 +460,6 @@ micro:
   - 13.07
   - 5.22
   - 21.9
-  - 3.67
-  - 1.0
   - 22.9
   - 2.02
   - 2.29
@@ -489,8 +483,6 @@ micro:
   - respond_to
   - ruby-xor
   - send_bmethod
-  - send_cfunc_block
-  - send_rubyfunc_block
   - setivar
   - setivar_object
   - setivar_young
