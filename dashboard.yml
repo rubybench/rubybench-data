@@ -163,6 +163,8 @@ other:
   - 1.0
   - 1.0
   - 1.0
+  - 1.0
+  - 1.0
   yjit:
   - 1.98
   - 1.57
@@ -178,6 +180,7 @@ other:
   - 1.44
   - 1.19
   - 1.0
+  - 1.1
   - 2.37
   - 1.31
   - 1.0
@@ -190,6 +193,7 @@ other:
   - 4.4
   - 1.65
   - 1.24
+  - 4.07
   - 2.36
   - 1.46
   - 4.0
@@ -209,6 +213,7 @@ other:
   - 1.27
   - 1.11
   - 1.0
+  - 1.08
   - 1.54
   - 1.1
   - 0.99
@@ -221,6 +226,7 @@ other:
   - 2.58
   - 1.33
   - 1.19
+  - 0.85
   - 1.71
   - 1.19
   - 3.39
@@ -240,6 +246,7 @@ other:
   - erubi
   - etanni
   - fannkuchredux
+  - fluentd
   - graphql
   - graphql-native
   - knucleotide
@@ -252,12 +259,15 @@ other:
   - protoboeuf-encode
   - rack
   - ruby-json
+  - rubyboy
   - rubykon
   - splay
   - sudoku
   - tinygql
   rss:
     no_jit:
+    - 1.0
+    - 1.0
     - 1.0
     - 1.0
     - 1.0
@@ -303,6 +313,7 @@ other:
     - 1.12
     - 1.16
     - 1.01
+    - 1.05
     - 1.07
     - 1.17
     - 1.03
@@ -315,6 +326,7 @@ other:
     - 0.99
     - 1.11
     - 1.05
+    - 1.24
     - 1.06
     - 1.09
     - 1.04
@@ -334,6 +346,7 @@ other:
     - 1.17
     - 1.05
     - 1.04
+    - 1.06
     - 1.25
     - 1.01
     - 1.08
@@ -346,6 +359,7 @@ other:
     - 2.22
     - 1.09
     - 1.15
+    - 2.7
     - 1.06
     - 1.16
     - 1.44
@@ -365,6 +379,7 @@ other:
     - erubi
     - etanni
     - fannkuchredux
+    - fluentd
     - graphql
     - graphql-native
     - knucleotide
@@ -377,6 +392,7 @@ other:
     - protoboeuf-encode
     - rack
     - ruby-json
+    - rubyboy
     - rubykon
     - splay
     - sudoku
