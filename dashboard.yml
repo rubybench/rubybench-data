@@ -17,11 +17,13 @@ headline:
   - 1.0
   - 1.0
   - 1.0
+  - 1.0
   yjit:
   - 2.7
   - 2.06
   - 1.95
   - 2.05
+  - 1.57
   - 1.62
   - 2.79
   - 1.55
@@ -37,6 +39,7 @@ headline:
   - 1.73
   - 1.84
   - 1.41
+  - 1.25
   - 1.37
   - 1.64
   - 1.29
@@ -52,6 +55,7 @@ headline:
   - chunky-png
   - erubi-rails
   - hexapdf
+  - liquid-c
   - liquid-compile
   - liquid-render
   - lobsters
@@ -78,11 +82,13 @@ headline:
     - 1.0
     - 1.0
     - 1.0
+    - 1.0
     yjit:
     - 1.11
     - 1.01
     - 1.09
     - 1.2
+    - 1.35
     - 1.11
     - 1.33
     - 1.17
@@ -98,6 +104,7 @@ headline:
     - 0.99
     - 0.96
     - 0.8
+    - 1.2
     - 1.15
     - 1.12
     - 1.14
@@ -113,6 +120,7 @@ headline:
     - chunky-png
     - erubi-rails
     - hexapdf
+    - liquid-c
     - liquid-compile
     - liquid-render
     - lobsters
