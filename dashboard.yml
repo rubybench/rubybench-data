@@ -432,9 +432,11 @@ micro:
   - 1.0
   - 1.0
   - 1.0
+  - 1.0
   yjit:
   - 7.24
   - 9.56
+  - 1.7
   - 11.7
   - 6.15
   - 8.74
@@ -461,6 +463,7 @@ micro:
   zjit:
   - 7.18
   - 25.76
+  - 121.87
   - 19.58
   - 33.72
   - 8.28
@@ -487,6 +490,7 @@ micro:
   benchmarks:
   - 30k_ifelse
   - 30k_methods
+  - 30k_variables
   - attr_accessor
   - cfunc_itself
   - fib
@@ -537,9 +541,11 @@ micro:
     - 1.0
     - 1.0
     - 1.0
+    - 1.0
     yjit:
     - 1.8
     - 1.2
+    - 6.41
     - 1.18
     - 1.22
     - 1.13
@@ -566,6 +572,7 @@ micro:
     zjit:
     - 2.53
     - 1.75
+    - 1.67
     - 1.31
     - 1.5
     - 1.16
@@ -592,6 +599,7 @@ micro:
     benchmarks:
     - 30k_ifelse
     - 30k_methods
+    - 30k_variables
     - attr_accessor
     - cfunc_itself
     - fib
