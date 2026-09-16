@@ -441,6 +441,7 @@ micro:
   - 1.0
   - 1.0
   - 1.0
+  - 1.0
   yjit:
   - 7.05
   - 9.61
@@ -465,6 +466,7 @@ micro:
   - 3.24
   - 3.28
   - 2.17
+  - 1.78
   - 10.7
   - 13.66
   - 1.55
@@ -492,6 +494,7 @@ micro:
   - 3.13
   - 3.19
   - 2.22
+  - 1.66
   - 17.79
   - 33.97
   - 0.85
@@ -519,11 +522,13 @@ micro:
   - setivar_object
   - setivar_young
   - str_concat
+  - struct-new-no-escape
   - structaref
   - structaset
   - throw
   rss:
     no_jit:
+    - 1.0
     - 1.0
     - 1.0
     - 1.0
@@ -574,6 +579,7 @@ micro:
     - 1.09
     - 1.09
     - 0.35
+    - 1.04
     - 1.2
     - 1.27
     - 1.03
@@ -601,6 +607,7 @@ micro:
     - 1.13
     - 1.13
     - 0.75
+    - 1.08
     - 1.35
     - 1.48
     - 1.06
@@ -628,6 +635,7 @@ micro:
     - setivar_object
     - setivar_young
     - str_concat
+    - struct-new-no-escape
     - structaref
     - structaset
     - throw
