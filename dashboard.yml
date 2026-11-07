@@ -17,6 +17,8 @@ headline:
   - 1.0
   - 1.0
   - 1.0
+  - 1.0
+  - 1.0
   yjit:
   - 2.64
   - 2.28
@@ -26,12 +28,14 @@ headline:
   - 1.66
   - 2.38
   - 2.98
+  - 1.65
   - 1.53
   - 1.72
   - 1.8
   - 1.84
   - 1.61
   - 1.43
+  - 1.89
   zjit:
   - 2.2
   - 2.42
@@ -41,12 +45,14 @@ headline:
   - 1.44
   - 2.24
   - 2.02
+  - 1.53
   - 1.38
   - 1.47
   - 1.73
   - 1.38
   - 1.65
   - 1.41
+  - 1.62
   benchmarks:
   - activerecord
   - chunky-png
@@ -56,14 +62,18 @@ headline:
   - liquid-compile
   - liquid-il
   - liquid-render
+  - lobsters
   - mail
   - psych-load
   - railsbench
   - rubocop
   - ruby-lsp
   - sequel
+  - shipit
   rss:
     no_jit:
+    - 1.0
+    - 1.0
     - 1.0
     - 1.0
     - 1.0
@@ -87,12 +97,14 @@ headline:
     - 0.93
     - 1.07
     - 1.28
+    - 1.26
     - 1.16
     - 1.11
     - 1.25
     - 1.52
     - 1.17
     - 1.08
+    - 1.33
     zjit:
     - 1.25
     - 1.48
@@ -102,12 +114,14 @@ headline:
     - 1.17
     - 1.03
     - 1.21
+    - 1.27
     - 1.24
     - 1.71
     - 1.16
     - 2.11
     - 1.12
     - 1.08
+    - 1.27
     benchmarks:
     - activerecord
     - chunky-png
@@ -117,12 +131,14 @@ headline:
     - liquid-compile
     - liquid-il
     - liquid-render
+    - lobsters
     - mail
     - psych-load
     - railsbench
     - rubocop
     - ruby-lsp
     - sequel
+    - shipit
 other:
   no_jit:
   - 1.0
