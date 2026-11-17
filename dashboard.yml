@@ -173,7 +173,6 @@ other:
   - 1.0
   - 1.0
   - 1.0
-  - 1.0
   yjit:
   - 1.97
   - 1.49
@@ -188,7 +187,6 @@ other:
   - 2.41
   - 1.5
   - 1.28
-  - 3.69
   - 1.27
   - 2.61
   - 2.15
@@ -222,7 +220,6 @@ other:
   - 2.5
   - 1.23
   - 1.46
-  - 0.98
   - 1.07
   - 2.45
   - 2.3
@@ -256,7 +253,6 @@ other:
   - blurhash
   - erubi
   - etanni
-  - fannkuchredux
   - fluentd
   - grape
   - graphql
@@ -310,7 +306,6 @@ other:
     - 1.0
     - 1.0
     - 1.0
-    - 1.0
     yjit:
     - 1.05
     - 1.06
@@ -325,7 +320,6 @@ other:
     - 1.07
     - 1.05
     - 1.0
-    - 1.06
     - 0.96
     - 1.21
     - 1.1
@@ -359,7 +353,6 @@ other:
     - 1.13
     - 1.1
     - 1.06
-    - 1.14
     - 0.97
     - 1.23
     - 1.16
@@ -393,7 +386,6 @@ other:
     - blurhash
     - erubi
     - etanni
-    - fannkuchredux
     - fluentd
     - grape
     - graphql
